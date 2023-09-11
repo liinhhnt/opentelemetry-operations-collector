@@ -42,7 +42,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"gopkg.in/yaml.v2"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver/internal"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver/internal"
 )
 
 type mockPrometheusResponse struct {

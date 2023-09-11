@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package prometheusreceiver // import "github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver"
+package prometheusreceiver // import "github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver"
 
 import (
 	"context"

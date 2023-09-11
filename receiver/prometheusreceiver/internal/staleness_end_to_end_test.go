@@ -44,7 +44,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
 )
 

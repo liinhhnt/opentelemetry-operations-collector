@@ -17,7 +17,7 @@ package prometheusreceiver
 import (
 	"testing"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver/internal"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver/internal"
 	"github.com/prometheus/common/model"
 	promcfg "github.com/prometheus/prometheus/config"
 	"github.com/prometheus/prometheus/model/relabel"

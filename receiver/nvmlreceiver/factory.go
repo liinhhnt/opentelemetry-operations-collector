@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/nvmlreceiver/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/nvmlreceiver/internal/metadata"
 )
 
 const typeStr = "nvml"

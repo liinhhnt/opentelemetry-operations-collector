@@ -17,7 +17,7 @@ package main
 import (
 	"context"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/service"
+	"github.com/liinhhnt/opentelemetry-operations-collector/service"
 )
 
 func main() {

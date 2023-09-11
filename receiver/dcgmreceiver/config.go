@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/config/confignet"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/dcgmreceiver/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/dcgmreceiver/internal/metadata"
 )
 
 const defaultEndpoint = "localhost:5555"

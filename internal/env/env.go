@@ -26,7 +26,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/version"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/version"
 )
 
 func Create() error {

@@ -29,7 +29,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"gopkg.in/yaml.v3"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/service"
+	"github.com/liinhhnt/opentelemetry-operations-collector/service"
 )
 
 func TestAgentMetrics(t *testing.T) {

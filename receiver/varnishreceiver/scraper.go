@@ -26,7 +26,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/varnishreceiver/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/varnishreceiver/internal/metadata"
 )
 
 type varnishScraper struct {

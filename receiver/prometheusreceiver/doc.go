@@ -13,4 +13,4 @@
 // limitations under the License.
 
 // Package prometheusreceiver autodiscovers and scrapes Prometheus metrics handlers, often served at /metrics.
-package prometheusreceiver // import "github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver"
+package prometheusreceiver // import "github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver"

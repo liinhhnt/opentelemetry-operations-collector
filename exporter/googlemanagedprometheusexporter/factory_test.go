@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlemanagedprometheusexporter // import "github.com/GoogleCloudPlatform/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter"
+package googlemanagedprometheusexporter // import "github.com/liinhhnt/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter"
 
 import (
 	"context"

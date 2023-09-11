@@ -32,7 +32,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/nvmlreceiver/testcudakernel"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/nvmlreceiver/testcudakernel"
 )
 
 func TestScrapeWithGpuPresent(t *testing.T) {

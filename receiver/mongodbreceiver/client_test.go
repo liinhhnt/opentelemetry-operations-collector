@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package mongodbreceiver // import "github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/mongodbreceiver"
+package mongodbreceiver // import "github.com/liinhhnt/opentelemetry-operations-collector/receiver/mongodbreceiver"
 
 import (
 	"context"

@@ -23,7 +23,7 @@ ALL_SRC := $(shell find . -name '*.go' -type f | sort)
 ALL_DOC := $(shell find . \( -name "*.md" -o -name "*.yaml" \) -type f | sort)
 GIT_SHA := $(shell git rev-parse --short HEAD)
 
-BUILD_INFO_IMPORT_PATH := github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/version
+BUILD_INFO_IMPORT_PATH := github.com/liinhhnt/opentelemetry-operations-collector/internal/version
 BUILD_X1 := -X $(BUILD_INFO_IMPORT_PATH).GitHash=$(GIT_SHA)
 BUILD_X2 := -X $(BUILD_INFO_IMPORT_PATH).Version=$(PKG_VERSION)
 ifdef JMX_HASH

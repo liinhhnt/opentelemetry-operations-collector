@@ -22,7 +22,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/levelchanger"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/levelchanger"
 )
 
 type baseTestCase struct {

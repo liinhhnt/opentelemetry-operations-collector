@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

@@ -28,7 +28,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/dcgmreceiver/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/dcgmreceiver/internal/metadata"
 )
 
 type dcgmScraper struct {

@@ -24,9 +24,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/env"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/levelchanger"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/version"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/env"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/levelchanger"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/version"
 )
 
 func MainContext(ctx context.Context) {

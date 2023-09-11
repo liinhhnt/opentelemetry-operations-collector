@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package googlemanagedprometheusexporter // import "github.com/googleCloudPlatform/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter"
+package googlemanagedprometheusexporter // import "github.com/liinhhnt/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter/internal/metadata"
 )
 
 const (

@@ -17,6 +17,7 @@ package service
 import (
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter"
+	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbyattrsprocessor"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstransformprocessor"
@@ -58,16 +59,16 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"go.uber.org/multierr"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/processor/agentmetricsprocessor"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/processor/casttosumprocessor"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/processor/modifyscopeprocessor"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/processor/normalizesumsprocessor"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/dcgmreceiver"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/mongodbreceiver"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/nvmlreceiver"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/varnishreceiver"
+	"github.com/liinhhnt/opentelemetry-operations-collector/exporter/googlemanagedprometheusexporter"
+	"github.com/liinhhnt/opentelemetry-operations-collector/processor/agentmetricsprocessor"
+	"github.com/liinhhnt/opentelemetry-operations-collector/processor/casttosumprocessor"
+	"github.com/liinhhnt/opentelemetry-operations-collector/processor/modifyscopeprocessor"
+	"github.com/liinhhnt/opentelemetry-operations-collector/processor/normalizesumsprocessor"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/dcgmreceiver"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/mongodbreceiver"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/nvmlreceiver"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/varnishreceiver"
 )
 
 func components() (otelcol.Factories, error) {
@@ -125,6 +126,7 @@ func components() (otelcol.Factories, error) {
 		fileexporter.NewFactory(),
 		googlecloudexporter.NewFactory(),
 		googlemanagedprometheusexporter.NewFactory(),
+		prometheusremotewriteexporter.NewFactory(),
 	}
 	for _, exp := range factories.Exporters {
 		exporters = append(exporters, exp)

@@ -24,7 +24,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/collectorerror"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/collectorerror"
 )
 
 func createMetricsReceiver(

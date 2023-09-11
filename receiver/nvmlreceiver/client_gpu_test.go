@@ -29,7 +29,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/nvmlreceiver/testcudakernel"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/nvmlreceiver/testcudakernel"
 )
 
 func TestNewNvmlClientWithGpuPresent(t *testing.T) {

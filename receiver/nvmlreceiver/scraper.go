@@ -27,7 +27,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/nvmlreceiver/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/nvmlreceiver/internal/metadata"
 )
 
 type nvmlScraper struct {

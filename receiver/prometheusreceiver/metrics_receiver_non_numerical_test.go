@@ -19,7 +19,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/prometheusreceiver/internal"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/prometheusreceiver/internal"
 	"github.com/prometheus/prometheus/model/value"
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/featuregate"

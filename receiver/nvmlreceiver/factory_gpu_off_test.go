@@ -26,7 +26,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/collectorerror"
+	"github.com/liinhhnt/opentelemetry-operations-collector/internal/collectorerror"
 )
 
 func TestCreateMetricsReceiverWithGPUSupportOff(t *testing.T) {

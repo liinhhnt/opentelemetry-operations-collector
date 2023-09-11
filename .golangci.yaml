@@ -43,7 +43,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/GoogleCloudPlatform/opentelemetry-operations-collector
+    local-prefixes: github.com/liinhhnt/opentelemetry-operations-collector
   govet:
     # report about shadowed variables
     check-shadowing: true

@@ -33,8 +33,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/dcgmreceiver/internal/metadata"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-collector/receiver/dcgmreceiver/testprofilepause"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/dcgmreceiver/internal/metadata"
+	"github.com/liinhhnt/opentelemetry-operations-collector/receiver/dcgmreceiver/testprofilepause"
 )
 
 func TestScrapeWithGpuPresent(t *testing.T) {
